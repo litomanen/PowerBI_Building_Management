@@ -42,14 +42,7 @@ By integrating geospatial mapping, operational risk assessments, and ESG metrics
 
 ## Technical Architecture & Methodology
 
-### 1. Data Modeling (Star Schema)
-The underlying architecture leverages an optimized **Star Schema** separating Fact tables (`fBuildingData`, `fIncidents`, `fMaintenance`) from Dimension tables (`dCalendar`, `dLocation`, `dEnergyRating`) to maximize DAX query performance and report scalability.
-
-### 2. ETL & Power Query Pipeline
-* Automated cleaning and normalization of energy consumption logs, incident logs, and maintenance cost records.
-* Data type enforcement, null handling, and feature engineering (e.g., construction decades, consumption tiers).
-
-### 3. Featured DAX Calculations
+### 1. Featured DAX Calculations
 
 ```dax
 -- % Inefficient Buildings (Classes D & E)
