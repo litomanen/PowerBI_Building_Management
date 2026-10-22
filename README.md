@@ -19,7 +19,8 @@ By integrating geospatial mapping, operational risk assessments, and ESG metrics
 | Home & Spatial Mapping | Individual Asset Profile |
 | :---: | :---: |
 | ![Home](docs/preview_home.png) | ![Building Specification](docs/preview_ficha.png) |
-
+| :---: | :---: | :---: |
+| ![Home](docs/preview_risco.png) | ![Building Specification](docs/preview_risco1.png) | ![Building Specification](docs/preview_risco2.png) |
 ---
 
 ## Key Features & Dashboard Views
